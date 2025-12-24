@@ -1,3 +1,6 @@
+
+![1](https://github.com/user-attachments/assets/622e6699-875f-4441-a067-9554e47091cc)
+
 # react-native-drag-sort
 
 一个功能强大的 React Native 拖拽排序组件库，支持单列和多列布局，提供流畅的拖拽体验和自动滚动功能。
