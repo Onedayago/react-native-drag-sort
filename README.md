@@ -230,6 +230,7 @@ const MyComponent = () => {
 | `keyStr` | `String` | ❌ | - | 作为列表 key 的关键字（用于优化渲染） |
 | `onDragStart` | `Function()` | ❌ | - | 拖拽开始回调 |
 | `onDragEnd` | `Function(from, to, newData)` | ❌ | - | 拖拽结束回调，参数：原始索引、新索引、新数据数组 |
+| `parentYRef` | `Ref<Number>` | ❌ | - | 如果当前拖拽视图在一个容器中，则需要这个容器在 scrollView 的 y 位置 |
 | `scrollYRef` | `Ref<Number>` | ❌ | - | 外层 ScrollView 滚动距离的 ref |
 | `scrollViewRef` | `Ref<ScrollView>` | ❌ | - | 外层 ScrollView 的 ref |
 | `scrollViewHeightRef` | `Ref<Number>` | ❌ | - | 外层 ScrollView 视图高度的 ref |
