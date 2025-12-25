@@ -19,12 +19,14 @@
 
 ### 前置依赖
 
-本组件依赖 `react-native-gesture-handler`，请先安装：
+本组件依赖 `react-native-gesture-handler` `lodash`，请先安装：
 
 ```bash
 npm install react-native-gesture-handler
+npm install lodash
 # 或
 yarn add react-native-gesture-handler
+yarn add lodash
 ```
 
 ### iOS 安装
