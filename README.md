@@ -17,28 +17,28 @@
 
 ## 安装
 
-### 前置依赖
-
-本组件依赖 `react-native-gesture-handler` `lodash`，请先安装：
+### 安装包
 
 ```bash
-npm install react-native-gesture-handler
-npm install lodash
+npm install react-native-drag-sort-list
 # 或
-yarn add react-native-gesture-handler
-yarn add lodash
+yarn add react-native-drag-sort-list
+```
+
+### 前置依赖
+
+本组件依赖 `react-native-gesture-handler` 和 `lodash`，这些依赖会自动安装。如果遇到问题，可以手动安装：
+
+```bash
+npm install react-native-gesture-handler lodash
+# 或
+yarn add react-native-gesture-handler lodash
 ```
 
 ### iOS 安装
 
 ```bash
 cd ios && pod install && cd ..
-```
-
-### 使用组件
-
-```bash
-# 将组件文件复制到你的项目中，或通过 npm link 等方式引入
 ```
 
 ## 使用方法
@@ -48,7 +48,7 @@ cd ios && pod install && cd ..
 ```javascript
 import React from 'react';
 import { Dimensions, View, Text } from 'react-native';
-import DragSortView from './lib/DragSortView';
+import DragSortView from 'react-native-drag-sort-list';
 
 const windowWidth = Dimensions.get('window').width;
 
@@ -91,7 +91,7 @@ const MyComponent = () => {
 ```javascript
 import React from 'react';
 import { Dimensions, View, Text } from 'react-native';
-import DragSortView from './lib/DragSortView';
+import DragSortView from 'react-native-drag-sort-list';
 
 const windowWidth = Dimensions.get('window').width;
 
@@ -136,7 +136,7 @@ const MyComponent = () => {
 ```javascript
 import React, { useRef } from 'react';
 import { Dimensions, ScrollView, Text, View } from 'react-native';
-import DragSortView from './lib/DragSortView';
+import DragSortView from 'react-native-drag-sort-list';
 
 const windowWidth = Dimensions.get('window').width;
 
