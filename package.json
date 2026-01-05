@@ -1,6 +1,6 @@
 {
   "name": "react-native-drag-sort-list",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A powerful React Native drag and sort component library with support for single and multi-column layouts",
   "main": "index.js",
   "scripts": {
