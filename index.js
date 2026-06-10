@@ -5,6 +5,7 @@
  */
 
 import DragSortView from "./lib/DragSortView";
+import DragListView from "./lib/DragListView";
 
 export default DragSortView;
-export { DragSortView };
+export { DragSortView, DragListView };
